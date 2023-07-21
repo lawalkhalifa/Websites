@@ -31,6 +31,11 @@
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  padding-bottom: 4px;
+}
+
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
 }
 
 .navbar ul li a {
@@ -38,7 +43,7 @@
   color: #fff;
   text-transform: uppercase;
 }
-.navbar ul li::after {
+/* .navbar ul li::after {
   content: "";
   height: 3px;
   width: 0;
@@ -47,10 +52,10 @@
   position: absolute;
   bottom: 85%;
   transition: 0.5s;
-}
-.navbar ul li:hover::after {
-  width: 10%;
-}
+} */
+/* .navbar ul li:hover::after {
+  width: 100%;
+} */
 
 .content {
   width: 100%;
@@ -99,4 +104,6 @@ button:hover span {
 }
 button:hover {
   border: none;
+  background: #009688;
+  transition: 0.5s ease-in-out;
 }
